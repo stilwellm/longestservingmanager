@@ -1,0 +1,266 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+@font-face {
+  font-family: 'geomanist-regular-webfont';
+  src: url('geomanist-regular-webfont.eot');
+  src: url('geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('geomanist-regular-webfont.woff2') format('woff2'),
+       url('geomanist-regular-webfont.woff') format('woff'),
+       url('geomanist-regular-webfont.ttf') format('truetype'),
+       url('geomanist-regular-webfont.svg#webfont') format('svg');
+   
+       
+}
+
+.header{
+    padding: 10px 10px 10px 10px;
+    background-color: #b56663;
+    font-family: 'geomanist-regular-webfont', sans-serif;   
+    width:100%;
+}
+
+
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    min-height: 100%;
+    background: url("images/grass.jpg");
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: cover;
+
+}
+
+
+#logo {
+    width: 100%;
+    height: auto; 
+  
+}
+
+#portrait {
+    width: 100%;
+    height: auto;
+}
+
+.header a {
+  color: #ffffff
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.main-content {
+    float: left;
+    padding: 10px 0 10px 0px;
+    width: 65%;
+}
+
+#row0:hover, #row1:hover {
+    background-color: #ff55ff;
+    color: #eeeeee;
+}
+
+.managerDetails {
+    
+    width: 90%;
+}
+
+#managerName {
+    font-weight: 500;
+    color: #000000;
+    width: 100%;
+    height: auto;
+    text-align:center;
+    background-color: #eeeeee;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+#managerImage { 
+    width: 100%;
+    min-height: 100px;
+    background-color: #eeeeee;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+
+}
+
+#managerTime { 
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    color: #000000;
+    text-align:center;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #eeeeee;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    
+    
+    .left {
+       display: none;
+    }
+    .right {
+        display: none;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .team {
+        display: none;
+    }
+    .a {
+        pointer-events: none; 
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .team {
+        display: none;
+    }
+   
+    #logo {
+        position: relative;
+        top: 30px;  
+    }
+
+    #portrait {
+        width: 100%;
+        height: auto;
+    }
+
+    #managerName {
+        width: 80px;   
+    }
+
+    #managerImage {
+        width: 80px;  
+    }
+    #managerTime { 
+        width: 80px;  
+    }
+
+}
+
+.left {
+    float: left;
+    width: 15%;
+    padding: 50px 10px 10px 10px;
+}
+
+
+.right {
+    float: right;
+    width: 15%;
+    padding: 50px 0px 10px 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
+    overflow: hidden;
+}
+
+ul li {
+    display: inline; 
+    margin: 0 5px 0 5px;
+    width: 100%;
+}
+
+
+.main-data {
+    overflow: auto; 
+     
+}
+
+
+
+#row0 {
+    background-color: #eeeeee;
+
+}
+
+
+#row1 {
+    background-color: #aaaaaa;
+}
+
+
+#heading {
+    
+    background-color: #b56663;
+    min-height: 30px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'geomanist-regular-webfont', sans-serif;
+}
+
+.no {
+    float: left;
+    width: 5%;
+    text-align: left;
+}
+
+.team {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+
+.manager{
+    float: left;
+    width: 30%;
+    text-align: left; 
+}
+
+
+.date{
+    float: left;
+    width: 33%;
+    text-align: left; 
+    margin: 0 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #eeeeee;
+}
+
